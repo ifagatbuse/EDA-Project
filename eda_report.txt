@@ -1,0 +1,18 @@
+
+Exploratory Data Analysis Report - Titanic Dataset
+
+1. Dataset Dimensions:
+- The dataset contains 891 rows and 14 columns.
+
+2. Missing Values:
+- All missing values in 'age', 'deck', and 'embarked_town' were successfully handled.
+- Missing values in 'age' were filled with the median.
+- Missing values in 'embarked_town' were filled with the most frequent value (mode).
+- The 'deck' column was dropped due to a high number of missing values.
+
+3. Key Findings from Visualizations:
+- Survival Rates: A smaller number of passengers survived than did not survive.
+- Age Distribution: The majority of passengers were in their 20s and 30s. There were some notable outliers, indicating very young and very old passengers.
+- Age vs. Fare: There is no strong correlation between age and the fare paid. However, passengers who paid very high fares were more likely to survive.
+
+This report summarizes the initial findings from the exploratory data analysis. The cleaned and prepared data is now ready for further machine learning model building.
